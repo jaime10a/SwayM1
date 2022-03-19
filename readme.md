@@ -1,5 +1,5 @@
 ## Guide to setup sway Window Manager for the M1 MacBook Air
-**I still need to test this out so dont trust everything to work**
+*I still need to test this out so dont trust everything to work*
 
 
 ## 1. Requirements
@@ -85,15 +85,21 @@ You can see all xkb options [here](https://gist.github.com/jatcwang/ae3b7019f219
 
 ## 4. Firefox and other XWayland-Apps
 
-Sadly, it seems that the apps that run through XWayland don't integrate well with the scaling and get blurry.<br>
-Firefox runs by default on XWayland, but it can run on Wayland too:)<br>
-You just need to lauch it with an enviroment variable:<br>
-`$ MOZ_ENABLE_WAYLAND=1 firefox`<br>
+Sadly, it seems that the apps that run through XWayland don't integrate well with the scaling and get blurry.
+
+Firefox runs by default on XWayland, but it can run on Wayland too:)
+
+You just need to lauch it with an enviroment variable:
+
+`$ MOZ_ENABLE_WAYLAND=1 firefox`
+
 I highly recommend that you do this.
 
 More info on how to do this [here](https://wiki.archlinux.org/title/firefox#Wayland).
 
+
 Keep in mind that every other app that relies on XWayland also gets blurry.
+
 
 
 *If you find any mistakes, or have improvements for this guide, feel free to contribute:)*
